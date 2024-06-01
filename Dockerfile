@@ -15,3 +15,5 @@ VOLUME [ "/etc/x-ui/", "/root/cert/" ]
 
 # Запустите приложение при запуске контейнера
 CMD ["docker", "run", "-itd", "--network=host", "--restart=unless-stopped", "--name", "3x-ui"]
+
+EXPOSE 3478
