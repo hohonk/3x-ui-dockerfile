@@ -88,4 +88,4 @@ VOLUME [ "/etc/x-ui" ]
 CMD [ "./x-ui" ]
 ENTRYPOINT [ "/app/DockerEntrypoint.sh" ]
 
-EXPOSE 2053
+EXPOSE 2000-65000
