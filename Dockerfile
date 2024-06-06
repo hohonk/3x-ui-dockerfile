@@ -87,3 +87,5 @@ RUN chmod +x \
 VOLUME [ "/etc/x-ui" ]
 CMD [ "./x-ui" ]
 ENTRYPOINT [ "/app/DockerEntrypoint.sh" ]
+
+EXPOSE 8080
